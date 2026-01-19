@@ -8,7 +8,9 @@
   font-weight: weight;
   font-style: normal;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 * {
   margin: 0;
@@ -17,8 +19,9 @@
 }
 /*Header Section*/
 .header{
-    max-width: 1600px;
+   
     margin: 0 auto;
+    background-color: #1A0B2E;
    
 }
 .logo{
@@ -30,11 +33,14 @@
     
 }
 .nav-bar{
-    background-color: #1A0B2E;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
+    min-height: 92px;
+    flex-wrap: wrap-reverse;
+    
     
 
     
@@ -51,29 +57,28 @@
      color: #FFFFFF;
 }
 .subscribe{
-    
-   
     width: 135px;
     height: 44px;
     font-size: 1rem;
     font-weight: 600;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    padding: 16px;
+    padding: auto;
     border:none transparent;
     border-radius: 20px;
     background: linear-gradient(90deg, #ff7a18, #ff2df7);
-    position: relative;
     color: #FFFFFF;
 
    
 }
 /*banner section*/
 .banner-section{
-    max-width: 1600px;
-    height: 760px;
-    margin: 0 auto;
+    
+   min-height: 760px;
     background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+    
     
     
     
@@ -84,6 +89,8 @@
   max-width: 400px;   
   margin: 0 auto;    
   top: 40px;
+  height: 50%;
+  
 
 
 
@@ -106,8 +113,7 @@
  
 }
 .sec-container{
-    margin-left: 525px;
-    margin-right: 525px;
+    
     margin-bottom: 101px;
     align-items: center;
     justify-items: center;
@@ -163,7 +169,7 @@
 .spotify img{
     width: 16px;
     height: 16px;
-    max-width: 100px;
+    
 }
 .subs img{
     width: 17px;
@@ -178,8 +184,59 @@
 }
 
 
+@media screen and (max-width: 576px){
+  .nav-links{
+    display: none; }  
+
+  .subscribe{
+    display: none;   
+  }
+
+  .hamburger-menu{
+    display: block;  
+  }
+
+  .nav-bar{
+    padding: 0 16px;
+  }
+.logo{
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    margin-left: 80px;
+    margin-bottom: 15px;}
+
+.bg-image{position: relative;
+  width: 100%;
+  max-width: 300px;   
+  margin: 0 auto;    
+  top: 150px;
+  
+
+}
+
+.banner-section{
+    
+  
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-size: ;
+    background-repeat: no-repeat;
+
+}
+.sec-container{
+    
+    margin-bottom: 2px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 230px;
+    margin-left: 25px;
+    
 
 
+
+}
+}
 
 
 
