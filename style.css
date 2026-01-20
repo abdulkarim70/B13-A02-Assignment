@@ -318,14 +318,77 @@ text-align: center;
 }
    
 
+.feature-section{
+    margin: 0 auto;
+    padding-top: 120px;
+    background-color: #1A0B2E;
+}
+
+
+.feature-title{
+    font-size: 2.5rem;
+    font-family: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+.display-flex{
+    display: flex;
+    gap: 3px;
+}
+.video-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    
+
+    
+}
+.choose-title{
+    padding-top: 120px;
+}
 
 
 
 
 
+.feature-container{
+    
+}
 
+.meet-container{
+    margin: auto;
+    background-color: #1A0B2E;
+    padding: 40px 40px;
+    
+}
 
+.image-p-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.pr
 
+.social-icon-container{
+    display: flex;
+    gap: 8px;
+    padding-top: 16px;
+    
+}
+
+.footer-section{
+
+    background-image: url(./assets/hero-bg.png);
+    min-height: 412px;
+}
 
 
 
