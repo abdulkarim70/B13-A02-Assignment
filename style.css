@@ -221,8 +221,42 @@ body{
     color: #FFFFFF;
     padding: 4px;
     text-align: center;
+
 }
 
+/* choose section*/
+.choose-section{
+background-color: #230E3D;
+
+margin: 0 auto;
+}
+
+
+
+
+
+
+.choose-title{
+font-size: 3rem;
+font-weight: 700;
+color: #FFFFFF;
+text-align: center;
+
+}
+.choose-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid tomato;
+    background-color: #00FF88;
+
+}
+
+
+
+
+
+/* mobile responsive*/
 @media screen and (max-width: 576px){
   .nav-links{
     display: none; }  
