@@ -229,6 +229,7 @@ body{
 background-color: #230E3D;
 
 margin: 0 auto;
+padding-top: 120px;
 }
 
 
@@ -242,15 +243,89 @@ font-weight: 700;
 color: #FFFFFF;
 text-align: center;
 
-}
-.choose-card-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    border: 2px solid tomato;
-    background-color: #00FF88;
 
 }
+.choose-card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+.ch-heading{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+.ch-p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 10px;
+    opacity: 60%;
+}
+
+
+.ch-1{
+    grid-row: span 2;
+    grid-column: span 1;
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px 40px;
+    border-radius: 40px;
+}
+.ch-2{
+    grid-row: span 1;
+    grid-column: span 2;
+    padding: 40px 40px;
+     background-color: rgba(53, 17, 101, 0.4);
+     border-radius: 40px;
+}
+.ch-3{
+    grid-row: span 1;
+    grid-column: span 2;
+    padding: 40px 40px;
+     background-color: rgba(53, 17, 101, 0.4);
+      border-radius: 40px;
+}
+
+
+.ch-4{
+    grid-row: span 1;
+    grid-column: span 2;
+    padding: 40px 40px;
+     background-color: rgba(53, 17, 101, 0.4);
+      border-radius: 40px;
+}
+
+
+.ch-5{
+    grid-row: span 1;
+    grid-column: span 1;
+    padding: 40px 40px;
+     background-color: rgba(53, 17, 101, 0.4);
+      border-radius: 40px;
+}
+
+
+.cd-container{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-auto-rows: minmax(190px, auto);
+    gap: 30px;
+     grid-auto-flow: dense;
+     max-width: 1200px;
+     width: 100%;
+     padding: 30px;
+}
+   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -307,9 +382,10 @@ text-align: center;
     
     
 }
-.ht-sec{ font-size: 3rem;
+.ht-sec{ font-size: 2rem;
     color: #FFFFFF;
     font-weight:900 ;
+    
 
 }
 
@@ -324,10 +400,24 @@ text-align: center;
 
 
 }
+.cd-container{
+    flex-direction: column;
+    grid-template-columns: repeat(1 , 1fr);
 }
 
 
+.ch-1,
+  .ch-2,
+  .ch-3,
+  .ch-4,
+  .ch-5{ grid-column: span 1;
+      grid-row: span 1;}
 
+
+.cd-container > div{
+      text-align: center;}
+
+}
 
 
 
