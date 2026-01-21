@@ -396,10 +396,12 @@ text-align: center;
 
     background-image: url(./assets/footer-bg.png);
     min-height: 412px;
-    max-width: 1600px;
+   /* max-width: 1600px; */
     width: 100%;
-    background-position-x: center;
+    background-position: center;
     background-repeat: no-repeat; 
+    background-size: cover ;
+  
      
 }
     
